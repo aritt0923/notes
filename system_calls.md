@@ -1,6 +1,6 @@
 # Operating Systems
 
-### ![Screen Shot 2022-02-03 at 15.00.20](images/Screen Shot 2022-02-03 at 15.00.20.png)
+### ![Screen Shot 2022-02-03 at 15.00.20](images/Screen Shot 2022-02-03 at 15.00.20.png?raw=true)
 
 ### What does an operating system provide? 
 
