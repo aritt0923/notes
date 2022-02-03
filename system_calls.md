@@ -1,6 +1,6 @@
 # Operating Systems
 
-### ![Screen Shot 2022-02-03 at 15.00.20](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 15.00.20.png)
+### ![Screen Shot 2022-02-03 at 15.00.20](../imagesScreen Shot 2022-02-03 at 15.00.20.png)
 
 ### What does an operating system provide? 
 
@@ -65,7 +65,7 @@
 
   - VM's hypervisor runs in ring 0, guest OS runs in ring 1 or 2, apps run in ring 3
 
-  ![Screen Shot 2022-02-03 at 15.27.23](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 15.27.23.png)
+  ![Screen Shot 2022-02-03 at 15.27.23](../imagesScreen Shot 2022-02-03 at 15.27.23.png)
 
   
 
@@ -82,13 +82,13 @@ How Apps and the OS Communicate
 - Any instruction that invokes `trap` is a system call
   - There are many different classes of system calls
 
-![Screen Shot 2022-02-03 at 15.28.42](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 15.28.42.png)
+![Screen Shot 2022-02-03 at 15.28.42](../imagesScreen Shot 2022-02-03 at 15.28.42.png)
 
 
 
 ### API - System Call - OS Relationship
 
-![Screen Shot 2022-02-03 at 15.29.45](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 15.29.45.png)
+![Screen Shot 2022-02-03 at 15.29.45](../imagesScreen Shot 2022-02-03 at 15.29.45.png)
 
 ### Trap Table
 
@@ -99,20 +99,20 @@ How Apps and the OS Communicate
 
 ### Classes of System Calls Invoked by `trap`
 
-![Screen Shot 2022-02-03 at 15.57.05](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 15.57.05.png)
+![Screen Shot 2022-02-03 at 15.57.05](../imagesScreen Shot 2022-02-03 at 15.57.05.png)
 
 ### Standard C Library Example
 
 - C program invoking `printf()` library call, which calls `write()` system call:
 
-  ![Screen Shot 2022-02-03 at 15.58.57](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 15.58.57.png)
+  ![Screen Shot 2022-02-03 at 15.58.57](../imagesScreen Shot 2022-02-03 at 15.58.57.png)
 
   ​												E.g, `INT` or `SYSCALL`
 
 ### Examples of Windows and Unix System Calls: 
 
-![Screen Shot 2022-02-03 at 16.00.42](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 16.00.42.png)
+![Screen Shot 2022-02-03 at 16.00.42](../imagesScreen Shot 2022-02-03 at 16.00.42.png)
 
 ### Passing Parameters to System Call:
 
-![Screen Shot 2022-02-03 at 16.01.46](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 16.01.46.png)
+![Screen Shot 2022-02-03 at 16.01.46](../imagesScreen Shot 2022-02-03 at 16.01.46.png)
