@@ -43,7 +43,7 @@
 
 
 
-![Screen Shot 2022-02-03 at 11.24.11](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 11.24.11.png)
+![Screenshot_2022-02-03_at_11.24.11](images/Screenshot_2022-02-03_at_11.24.11.png)
 
 ### Why do we want to use Threads? 
 
@@ -62,7 +62,7 @@
 
 
 
-![Screen Shot 2022-02-03 at 11.31.38](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 11.31.38.png)
+![Screenshot_2022-02-03_at_11.31.38](images/Screenshot_2022-02-03_at_11.31.38.png)
 
 #### Thread Safe Code
 
@@ -150,7 +150,7 @@
 
 ### User-Space Threads
 
-![Screen Shot 2022-02-03 at 12.02.18](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 12.02.18.png)
+![Screenshot_2022-02-03_at_12.02.18](images/Screenshot_2022-02-03_at_12.02.18.png)
 
 - User-space threads are usually cooperatively multitasked, i.e. user threads within a process voluntarily give up the CPU to each other
   - Threads will synchronize with each other via the user-space threading package or library
@@ -163,7 +163,7 @@
 
 ### Kernel Threads
 
-![Screen Shot 2022-02-03 at 12.06.43](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 12.06.43.png)
+![Screenshot_2022-02-03_at_12.06.43](images/Screenshot_2022-02-03_at_12.06.43.png)
 
 - *Kernel threads* are supported by OS
   - Kernel sees threads and schedules at the granularity of threads
@@ -173,15 +173,15 @@
 
 #### Many-to-One Model
 
-![Screen Shot 2022-02-03 at 12.09.27](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 12.09.27.png)
+![Screenshot_2022-02-03_at_12.09.27](images/Screenshot_2022-02-03_at_12.09.27.png)
 
 #### One-to-One Model
 
-![Screen Shot 2022-02-03 at 12.09.54](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 12.09.54.png)
+![Screenshot_2022-02-03_at_12.09.54](images/Screenshot_2022-02-03_at_12.09.54.png)
 
 #### Many-to-Many Model
 
-![Screen Shot 2022-02-03 at 12.10.17](/Users/andrewrittenhouse/Library/Application Support/typora-user-images/Screen Shot 2022-02-03 at 12.10.17.png)
+![Screenshot_2022-02-03_at_12.10.17](images/Screenshot_2022-02-03_at_12.10.17.png)
 
 
 

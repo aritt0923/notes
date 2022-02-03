@@ -65,7 +65,7 @@
 
   - VM's hypervisor runs in ring 0, guest OS runs in ring 1 or 2, apps run in ring 3
 
-  ![Screen Shot 2022-02-03 at 15.27.23](images/Screen Shot 2022-02-03 at 15.27.23.png)
+  ![Screenshot_2022-02-03_at_15.27.23](images/Screenshot_2022-02-03_at_15.27.23.png)
 
   
 
@@ -82,13 +82,13 @@ How Apps and the OS Communicate
 - Any instruction that invokes `trap` is a system call
   - There are many different classes of system calls
 
-![Screen Shot 2022-02-03 at 15.28.42](images/Screen Shot 2022-02-03 at 15.28.42.png)
+![Screenshot_2022-02-03_at_15.28.42](images/Screenshot_2022-02-03_at_15.28.42.png)
 
 
 
 ### API - System Call - OS Relationship
 
-![Screen Shot 2022-02-03 at 15.29.45](images/Screen Shot 2022-02-03 at 15.29.45.png)
+![Screenshot_2022-02-03_at_15.29.45](images/Screenshot_2022-02-03_at_15.29.45.png)
 
 ### Trap Table
 
@@ -99,21 +99,21 @@ How Apps and the OS Communicate
 
 ### Classes of System Calls Invoked by `trap`
 
-![Screen Shot 2022-02-03 at 15.57.05](images/Screen Shot 2022-02-03 at 15.57.05.png)
+![Screenshot_2022-02-03_at_15.57.05](images/Screenshot_2022-02-03_at_15.57.05.png)
 
 ### Standard C Library Example
 
 - C program invoking `printf()` library call, which calls `write()` system call:
 
-  ![Screen Shot 2022-02-03 at 15.58.57](images/Screen Shot 2022-02-03 at 15.58.57.png)
+  ![Screenshot_2022-02-03_at_15.58.57](images/Screenshot_2022-02-03_at_15.58.57.png)
 
   ​												E.g, `INT` or `SYSCALL`
 
 ### Examples of Windows and Unix System Calls: 
 
-![Screen Shot 2022-02-03 at 16.00.42](images/Screen Shot 2022-02-03 at 16.00.42.png)
+![Screenshot_2022-02-03_at_16.00.42](images/Screenshot_2022-02-03_at_16.00.42.png)
 
 ### Passing Parameters to System Call:
 
-![Screen Shot 2022-02-03 at 16.01.46](images/Screen Shot 2022-02-03 at 16.01.46.png)
+![Screenshot_2022-02-03_at_16.01.46](images/Screenshot_2022-02-03_at_16.01.46.png)
 
