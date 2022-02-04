@@ -31,7 +31,7 @@
 
 - it is usually a routine to be called when the signal is seen
 
-  ![“Screenshot”_2022-02-04_at_14.43.00](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-04_at_14.43.00.png)
+  ![“Screenshot”_2022-02-04_at_14.43.00](images/“Screenshot”_2022-02-04_at_14.43.00.png)
 
 ### Signals and Race Conditions
 
@@ -113,7 +113,7 @@ int main(){
 
 ### Signals Allow Limited IPC (Graphic)
 
-![“Screenshot”_2022-02-04_at_14.29.58](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-04_at_14.29.58.png)
+![“Screenshot”_2022-02-04_at_14.29.58](images/“Screenshot”_2022-02-04_at_14.29.58.png)
 
 
 
@@ -121,7 +121,7 @@ int main(){
 
 ### Signals - POSIX-compliant / UNIX (Graphic) (TODO::TABLE)
 
-## ![“Screenshot”_2022-02-04_at_14.40.32](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-04_at_14.40.32.png)
+## ![“Screenshot”_2022-02-04_at_14.40.32](images/“Screenshot”_2022-02-04_at_14.40.32.png)
 
 
 
@@ -147,7 +147,7 @@ int main(){
 
   
 
-![“Screenshot”_2022-02-04_at_15.16.19](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-04_at_15.16.19.png)
+![“Screenshot”_2022-02-04_at_15.16.19](images/“Screenshot”_2022-02-04_at_15.16.19.png)
 
 
 
@@ -195,7 +195,7 @@ int main(){
 
 #### IPC Via Pipes (Graphic)
 
-![“Screenshot”_2022-02-04_at_15.23.52](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-04_at_15.23.52.png)
+![“Screenshot”_2022-02-04_at_15.23.52](images/“Screenshot”_2022-02-04_at_15.23.52.png)
 
 ### Sockets
 
@@ -230,7 +230,7 @@ bind(sd, (struct sockaddr *)&local, length);
 
 - Usually, one process acts as the server, and the other processes connect to it as clients
 
-![“Screenshot”_2022-02-04_at_15.38.07](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-04_at_15.38.07.png)
+![“Screenshot”_2022-02-04_at_15.38.07](images/“Screenshot”_2022-02-04_at_15.38.07.png)
 
 ### Remote Procedure Calls (RPC)
 
@@ -243,7 +243,7 @@ bind(sd, (struct sockaddr *)&local, length);
 7) The network transfers the packet back to the client
 8) TCP/IP used to transmit packet
 
-![“Screenshot”_2022-02-04_at_15.40.54](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-04_at_15.40.54.png)
+![“Screenshot”_2022-02-04_at_15.40.54](images/“Screenshot”_2022-02-04_at_15.40.54.png)
 
 - Can fail more often
 - Can be executed more than once
@@ -254,7 +254,7 @@ bind(sd, (struct sockaddr *)&local, length);
   - Static port => Pre-selected
   - Dynamic port => matchmaker is needed
 
-![“Screenshot”_2022-02-04_at_15.43.26](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-04_at_15.43.26.png)
+![“Screenshot”_2022-02-04_at_15.43.26](images/“Screenshot”_2022-02-04_at_15.43.26.png)
 
 # Inter Process Communication
 
