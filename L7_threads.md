@@ -4,7 +4,7 @@
 
 ![Screenshot_2022-02-03_at_11.24.11](images/Screenshot_2022-02-03_at_11.24.11.png)
 
-### Why do we want to use Threads? 
+## Why do we want to use Threads? 
 
 - Reduced context switch overhead vs multiple processes
   - Eg. in Solaris (Linux BigIron), context switching between processes is 5x slower than switching between threads
@@ -17,13 +17,11 @@
   - IPC via message passing uses system calls to send / recieve a message, which is slow
   - IPC using shared memoery may be comparable to inter-thread communication
 
-### Thread Safety
+## Thread Safety
 
 
 
 ![Screenshot_2022-02-03_at_11.31.38](images/Screenshot_2022-02-03_at_11.31.38.png)
-
-#### Thread Safe Code
 
 - A piece of code is **thread-safe** if it functions correctly suring the simultaneous or *concurrent* execution by multiple threads
   - In particular, is must satisfy the need for multiple threads to access the same shared data, and the need for a shared piece of data to be accessed by only one thread at any given time
@@ -33,7 +31,7 @@
   - Heap variables is not thread safe
 - If possible, best to avoid globals for thread safety, but there is a way to do so safely
 
-### Processes vs Threads
+## Processes vs Threads
 
 - Why are processes still used when threads bring so many advantages?
   1. Some tasks are sequential and not easily parallelizable, and hence are single-threaded by nature
@@ -54,13 +52,13 @@
   - All threads must run the same program
   - Sharing of files, users, etc
 
-### Applications, Processes, and Threads
+## Applications, Processes, and Threads
 
 - An application can consist of multiple processes, each one dedicated to a specific task (UI, computation, communication, etc.)
 - Each process can consist of multiple threads
 - An application could thus consist of many process and threads
 
-### Thread Libraries
+## Thread Libraries
 
 - Thread library provides programmer with API for creating and managing threads
 - Two primary ways of implementing
@@ -77,14 +75,14 @@
     - Java threads are managed by the JVM
     - Typically implemented using the threads melel privided by underlying OS
 
-### The pthreads API
+## The pthreads API
 
 - Thread management: the first class of fucntions work directly on threads - creating, terminating, joining, etc.
 - Semaphores: provide for create, destroy, wait, and post on semaphores
 - Mutexes: provide for creating, destroying, locking, and unlocking mutexes
 - Condition variables: include functions to create, destroy, wait, and signal based upon specified variable values
 
-#### Thread Creation
+### Thread Creation
 
 `pthread_create(did,attr,start_routine,arg)`
 
@@ -93,7 +91,7 @@
 - The `start_routine` is the C routine that the thread will execute once it is created
 - A single argument may be passed to `start_routine` via `arg`. It must be passed by reference as a pointer cast of type void. 
 
-#### Thread Termination and Join
+### Thread Termination and Join
 
 `pthread_exit(value);`
 
@@ -107,7 +105,7 @@
 
 - Return 0 on success, and negative on failure. The returned value is a pointer returned by reference. If you do not care about the return value, you can pass NULL for the second argument.
 
-### User-Space Threads
+## User-Space Threads
 
 ![Screenshot_2022-02-03_at_12.02.18](images/Screenshot_2022-02-03_at_12.02.18.png)
 
@@ -120,7 +118,7 @@
   - Implementation of `pthreads` api differ underneath the API; could be user-space threads; there is also a pthreads support for kernel threads as well
 - User-space thread is called a *fiber*
 
-### Kernel Threads
+## Kernel Threads
 
 ![Screenshot_2022-02-03_at_12.06.43](images/Screenshot_2022-02-03_at_12.06.43.png)
 
