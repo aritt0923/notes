@@ -4,7 +4,7 @@
 
 ### Main Memory (Graphic)
 
-![“Screenshot”_2022-02-08_at_11.07.37](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-08_at_11.07.37.png)
+![“Screenshot”_2022-02-08_at_11.07.37](images/“Screenshot”_2022-02-08_at_11.07.37.png)
 
 ### Benifits of Multithreaded Architecture
 
@@ -19,7 +19,7 @@
 
 ### Example (Graphic)
 
-![“Screenshot”_2022-02-08_at_11.10.00](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-08_at_11.10.00.png)
+![“Screenshot”_2022-02-08_at_11.10.00](images/“Screenshot”_2022-02-08_at_11.10.00.png)
 
 ## Thread Safety
 
@@ -30,7 +30,7 @@
 
 ### Main Memory
 
-![“Screenshot” 2022-02-08 at 11.13.01](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot” 2022-02-08 at 11.13.01.png)
+![“Screenshot” 2022-02-08 at 11.13.01](images/“Screenshot” 2022-02-08 at 11.13.01.png)
 
 Suppose: 
 
@@ -40,15 +40,15 @@ Suppose:
 
 ### Not Thread Safe (Example)
 
-- Given the following code, what are the possible values that are printed: ![“Screenshot”_2022-02-08_at_11.15.38](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-08_at_11.15.38.png)
+- Given the following code, what are the possible values that are printed: ![“Screenshot”_2022-02-08_at_11.15.38](images/“Screenshot”_2022-02-08_at_11.15.38.png)
 
-![“Screenshot” 2022-02-08 at 11.16.12](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot” 2022-02-08 at 11.16.12.png)
+![“Screenshot” 2022-02-08 at 11.16.12](images/“Screenshot” 2022-02-08 at 11.16.12.png)
 
-![“Screenshot” 2022-02-08 at 11.16.36](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot” 2022-02-08 at 11.16.36.png)
+![“Screenshot” 2022-02-08 at 11.16.36](images/“Screenshot” 2022-02-08 at 11.16.36.png)
 
-![“Screenshot” 2022-02-08 at 11.16.54](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot” 2022-02-08 at 11.16.54.png)
+![“Screenshot” 2022-02-08 at 11.16.54](images/“Screenshot” 2022-02-08 at 11.16.54.png)
 
-![“Screenshot” 2022-02-08 at 11.17.14](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot” 2022-02-08 at 11.17.14.png)
+![“Screenshot” 2022-02-08 at 11.17.14](images/“Screenshot” 2022-02-08 at 11.17.14.png)
 
 ### Thread-Safe Code
 
@@ -66,7 +66,7 @@ Suppose:
 
 
 
-![“Screenshot”_2022-02-08_at_11.22.34](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-08_at_11.22.34.png)
+![“Screenshot”_2022-02-08_at_11.22.34](images/“Screenshot”_2022-02-08_at_11.22.34.png)
 
 - Reentrancy was developed for interrupt service routines (ISRs)
   - In the middle of a OS processing an interrupt, its ISR can be interrupted to process a second interrupt
