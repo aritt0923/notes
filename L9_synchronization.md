@@ -47,11 +47,11 @@
 
 ### Example: (Graphics)
 
-![“Screenshot”_2022-02-10_at_10.00.59](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-10_at_10.00.59.png)
+![“Screenshot”_2022-02-10_at_10.00.59](images/“Screenshot”_2022-02-10_at_10.00.59.png)
 
 
 
-![“Screenshot”_2022-02-10_at_10.01.12](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-10_at_10.01.12.png)
+![“Screenshot”_2022-02-10_at_10.01.12](images/“Screenshot”_2022-02-10_at_10.01.12.png)
 
 ![“Screenshot”_2022-02-10_at_10.01.33](/Users/andrewrittenhouse/Documents/CU/CSCI_3753/notes/images/“Screenshot”_2022-02-10_at_10.01.33.png)
 
