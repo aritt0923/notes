@@ -64,21 +64,57 @@ Suppose:
 
 - Code is reentrant if a **single thread** (really a sequence of execution) can be interrupted in the middle of executing the code **and** then reenter the same code later in a safe manner (before the first entry has been completed).
 
+```C
+void swap(int* x, int* y)
+{
+  int tmp;
+  tmp = *x;
+  *x = *y;
+  *y = tmp;
+}
 
+void isr() //interrupt service routine 
+{
+  int x = 1, y = 2;
+  swap(&x, &y);
+}
+```
 
-![“Screenshot”_2022-02-08_at_11.22.34](images/“Screenshot”_2022-02-08_at_11.22.34.png)
+```C
+int tmp; //global??
+
+void swap(int* x, int* y)
+{
+  // save global variable
+  int s;
+  s = tmp;
+  
+  tmp = *x;
+  *x = *y;
+  *y = tmp;
+  
+  //restore global variable
+  tmp = s;
+}
+
+void isr() //interrupt service routine
+{
+  int x = 1, y = 2;
+  swap(&x, &y);
+}
+```
 
 - Reentrancy was developed for interrupt service routines (ISRs)
   - In the middle of a OS processing an interrupt, its ISR can be interrupted to process a second interrupt
   - The same OS ISR code may be reentered a 2<sup>nd</sup> time before the 1<sup>st</sup> interrupt has been fully processed.
-  - IF the ISR coe is not well-written, i.e., reentrant, then the system could hang or crash. 
+  - If the ISR code is not well-written, i.e., reentrant, then the system could hang or crash. 
 
 #### Reentrancy Example (Code)
 
 ##### Neither Reentrant Nor Thread-safe
 
 ```C
-int tmp;
+int tmp; //Global
 
 void swap(int* x, int* y)
 {
@@ -142,4 +178,4 @@ void isr()
   - Make sure your objects are "recursive-safe"
   - Make sure your objects are correctly encapsulated
   - Make sure your thread-safe code is recursive-safe
-  - Make sure users know your object is not thread-safe
+  - Make sure users know your object is not thread-safe
