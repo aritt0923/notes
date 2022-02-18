@@ -57,7 +57,7 @@ Suppose:
   - Can be thread safe if each piece of **shared data can only be accessed by one thread at a given time**
 - If two threads share and execute the same code, then it is not safe to use the following unprotected **shared** data:
   - Use of global variables is not thrad safe
-  - Use of static cariables is not thread safe
+  - Use of static variables is not thread safe
   - Use of heap variables is not thread safe
 
 ### Reentrant Code
